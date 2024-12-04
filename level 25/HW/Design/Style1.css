@@ -1,0 +1,34 @@
+main{
+    text-align: center;
+    font-style: oblique;
+}
+
+.h1{
+    font-family: fantasy;
+    font-weight: bolder;
+    color: blanchedalmond;
+    background-color: black;
+    border: 10px;
+    border-style: double;
+    margin-bottom: 20px; 
+    cursor: pointer;
+}
+
+.d1, .d2, .d3{
+    font-family: cursive;
+    font-size: larger;
+    font-style: oblique;
+    background-color: blanchedalmond;
+    border: 10px;
+    border-style: double;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+footer{
+    background-color: blanchedalmond;
+    border: 10px;
+    border-style: double;
+    padding: 5%;
+    margin-top: 20px;
+}

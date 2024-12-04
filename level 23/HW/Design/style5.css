@@ -1,0 +1,27 @@
+#table1{
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+tr{
+    border: 1px solid black;
+}
+td{
+    border: 1px solid black;
+    padding: 30px;
+}
+
+body{
+    text-align: center;
+    font-size: xx-large;
+}
+
+h1{
+    color: green;
+}
+
+#table2{
+    border: 1px solid blue;
+}
+

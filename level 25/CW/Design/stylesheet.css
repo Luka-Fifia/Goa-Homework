@@ -1,0 +1,28 @@
+.btn{
+    width: 500px;
+    height: 100px;
+    color: burlywood;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    border: 3px solid burlywood;
+    cursor: grab;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+
+body , h2 , h1{
+    color: rgb(8, 8, 58);
+    background-color: aqua;
+    border: 10px;
+    border-style: groove;
+    font-family: serif;
+    font-weight: 600;
+    text-align: center;
+    margin: 40px 40px 40px 40px;
+    text-align: center;
+}
+p{
+    font-family: fantasy;
+    font-weight: 600;
+}
+

@@ -1,0 +1,24 @@
+.Div-1{
+    text-align: left;
+    background-color: blueviolet;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.Div-2{
+    text-align: center;
+    background-color: bisque;
+    border: 5px solid rgb(0, 0, 0);
+    text-align: center;
+    font-family: cursive;
+}
+
+.Div-3{
+    text-align: right;
+    margin-top: 10px;
+    font-family: cursive;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgb(129, 56, 127);
+    border: 5px solid black;
+    font-size: xx-small;
+}

@@ -1,0 +1,37 @@
+table{
+    border: 1px solid black;
+    margin-left: 25%;
+    padding: 5px;
+}
+
+th{
+    border: 1px solid black;
+}
+
+tr{
+    border: 1px solid black;
+}
+td{
+    border: 1px solid black;
+}
+
+body{
+    font-size: xx-large;
+    text-align: center;
+}
+
+#Rainy{
+    text-align: left;
+}
+
+#Cloudy{
+    text-align: left;
+}
+
+#USA{
+    text-align: left;
+}
+
+#Germany{
+    text-align: left;
+}

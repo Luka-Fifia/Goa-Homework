@@ -1,0 +1,25 @@
+section{
+    text-align: center;
+}
+
+.h1{
+    font-size: x-large;
+    font-style: oblique;
+    font-family: cursive;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: blueviolet;
+}
+
+.d1, .d2, .d3{
+    font-size: large;
+    font-style: normal;
+    font-family: monospace;
+    border: 3px;
+    border-style: double;
+    margin: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: darkorchid;
+    font-weight: 900;
+}

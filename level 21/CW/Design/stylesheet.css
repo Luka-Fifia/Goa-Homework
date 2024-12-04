@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(170, 200, 226);
+    text-align: center;
+}
+
+Header{
+    background-color: aqua;
+    font-weight: bolder;
+}
+
+#Xmas{
+    background-color: tomato;
+    font-family: cursive;
+}
+
+#Style{
+    background-color: red;
+    font-family: cursive;
+        p{
+            font-weight: bolder;
+        }
+}
+
+#History{
+    background-color: tomato;
+    font-family: cursive;
+        p{
+            font-weight: bolder;
+        }
+}
+
+h1{
+    border: 10px;
+    border-style: double;
+}
+
+h2{
+    border: 10px;
+    border-style: double;
+}

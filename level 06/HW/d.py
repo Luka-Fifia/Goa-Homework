@@ -1,0 +1,10 @@
+name = input("enter your name: ")
+surname = input("enter your surname: " )
+fathers_name = input("enter your father's name: ")
+mothers_name = input("enter your mother's name: ")
+mothers_surname = input("enter your mother's surname: ")
+colour = input("enter your favorite colour: ")
+car = input("enter your favorite car: ")
+hobby = input("enter your three favorite hobbies: ")
+
+print("your name: " , name , "your surname : ", surname , "your father's name: " , fathers_name , "your mother's name: " , mothers_name , "your mother's surname: " , "your favorite colour: " , colour , "your favorite car: " , car , "your three favorite hobbies: " , hobby)

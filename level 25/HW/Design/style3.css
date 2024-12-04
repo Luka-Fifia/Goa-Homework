@@ -1,0 +1,33 @@
+section{
+    text-align: center;
+}
+
+.h1{
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    border: 10px;
+    border-style: double;
+    border-spacing: 10px;
+    padding: 5%;
+    border-radius: 10px;
+}
+
+.d1, .d2, .d3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    border-style: dashed;
+    border-left: unset;
+    border-right: unset;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+footer{
+    border: 10px;
+    border-style: double;
+    border-spacing: 10px;
+    padding: 5%;
+    border-radius: 10px;
+}
