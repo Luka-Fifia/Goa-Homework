@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+}
+header{
+    text-align: left;
+    border: 10px solid black;
+    border-style: solid;
+}
+h1,h2{
+    font-family: fantasy;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: hsl(271, 89%, 18%, .8);
+}
+
+p{
+    padding-left: 250px;
+    padding-right: 250px;
+    font-size: larger;
+    font-family: fantasy;
+    border: 8px solid;
+    text-shadow: 2px 3px 2px gray;
+    background-color: hsl(278, 74%, 32%, .5);
+}
+img{
+    border: 10px solid black;
+    border-radius: 100%;
+    border-style: double;
+    padding: 3%;
+    background-color: hsl(278, 74%, 32%, .5);
+}
+
+

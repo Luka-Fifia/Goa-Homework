@@ -1,0 +1,18 @@
+.Heading{
+    font-size: xx-large;
+    color: hsl(0, 100%, 50%, .5);
+    font-family: fantasy;
+    font-style: italic;
+    border: 10px;
+    border-color: black;
+    border-style: inherit;
+}
+
+#Heading{
+    background-color: #9f33ff;
+}
+
+body{
+    background-color: rgb(243, 212, 34);
+    font-family: cursive;
+}
