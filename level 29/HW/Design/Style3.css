@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "Dancing-Script";
+    src: url(../fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat/static/Montserrat-Medium.ttf);
+}
+
+main{
+    text-align: center;
+}
+
+strong{
+    font-family: "Dancing-Script", sans-serif;
+    font-size: larger;
+}
+
+h1, h2{
+    font-family:"Dancing-Script", sans-serif;;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: xx-large;
+    font-weight: 500;
+}
+
+p{
+    font-family: "Roboto", sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    font-weight: 10;
+}

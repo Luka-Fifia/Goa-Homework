@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "ALK";
+    src: url(../fonts/ALK-Sanet/alk-sanet.ttf);
+}
+
+@font-face {
+    font-family: "BPG";
+    src: url(../fonts/BPG-Glaho/bpg_glaho.ttf);
+}
+
+main{
+    text-align: center;
+}
+li{
+    text-align: left;
+    font-family: "ALK", Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    font-family: "ALK";
+    margin: 50px 150px 50px 150px;
+}
+img{
+    border-radius: 10%;
+}
+
+h1, h2, h3{
+    font-size: xx-large;
+    font-family: "ALK";
+}

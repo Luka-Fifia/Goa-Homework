@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "ALK";
+    src: url(../fonts/ALK-Sanet/alk-sanet.ttf);
+}
+
+@font-face {
+    font-family: "BPG";
+    src: url(../fonts/BPG-Glaho/bpg_glaho.ttf);
+}
+
+
+body{
+    background-color: #e0e0e0;
+}
+
+main{
+    text-align: center;
+}
+li{
+    text-align: left;
+    font-family: "ALK";
+    margin: 20px 50px 20px 50px;
+}
+img{
+    border-radius: 15%;
+}
+p{
+    font-family: "BPG";
+    margin: 20px 50px 20px 50px;
+}
+h1,h2{
+    font-family: "ALK";
+    margin: 30px;
+}

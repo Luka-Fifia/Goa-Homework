@@ -1,0 +1,19 @@
+main{
+    text-align: center;
+}
+
+h1{
+  font-family: "Agu Display", serif;
+  font-weight: 400;
+  text-shadow: 2px 2px 2px;
+}
+
+#p1, #p2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+footer{
+    font-weight: 700;
+}
+
