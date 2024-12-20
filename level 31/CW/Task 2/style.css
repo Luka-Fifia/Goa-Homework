@@ -1,0 +1,26 @@
+@keyframes first {
+    0%   {background-color: red;}
+    20%  {background-color: yellow;}
+    40%  {background-color: blue;}
+    60%  {background-color: green;}
+    80%  {background-color: lightgreen;}
+    90%  {background-color: orange;}
+    100% {background-color: orangered;}
+}
+
+div {
+    width: 100px;
+    height: 30px;
+    margin: auto;
+    font-size: small;
+    background-color: red;
+    transition: 2s;
+    animation-name: first;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+div:hover {
+    padding: 3%;
+    font-size: large;
+}

@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.h1 {
+    width: 700px;
+    height: 100px;
+    margin: auto;
+    padding-top: 10px;
+    font-family: cursive;
+    font-size: xx-large;
+}
+
+p {
+    font-family: sans-serif;
+    padding: 20px 70px;
+    font-size: x-large;
+}
