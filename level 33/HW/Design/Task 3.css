@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    margin: 0 auto;
+    padding: 125px;
+    border-radius: 50%;
+}
+
+.second {
+    width: 250px;
+    height: 250px;
+    background-color: blue;
+    margin: 0 auto;
+}

@@ -1,0 +1,38 @@
+@keyframes gradient {
+    10%     {border-color: red;}
+    20%     {border-color: rgb(255, 50, 0);}
+    30%     {border-color: rgb(255, 100, 0);}
+    40%     {border-color: rgb(255, 150, 0);}
+    50%     {border-color: rgb(255, 200, 0);}
+    60%     {border-color: rgb(255, 230, 0);}
+    70%     {border-color: rgb(255, 200, 0);}
+    80%     {border-color: rgb(255, 150, 0);}
+    90%     {border-color: rgb(255, 100, 0);}
+    100%    {border-color: rgb(255, 50, 0);}
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.p {
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+    border: 10px;
+    text-align: left;
+    padding: 15% 5%;
+    border: 30px double red;
+    /* 
+    border-top: red;
+    border-right: green;
+    border-bottom: blue;
+    border-left: yellow; 
+    */
+    animation-name: gradient;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
