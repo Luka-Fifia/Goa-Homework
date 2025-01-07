@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.lion {
+    background-image: url(../assets/images/Lion.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 500px;
+    background-position: 0%;
+    color: blanchedalmond;
+    padding-left: 10px;
+    text-shadow: 5px 3px 5px black;
+}

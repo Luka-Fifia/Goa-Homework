@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: cornflowerblue;
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container {
+    background-image: url(../assets/images/GOA.png);
+    background-size: cover;
+    background-position: 0%;
+    background-repeat: no-repeat;
+    border: 2px solid cornflowerblue;
+    border-radius: 50%;
+
+    width: 500px;
+    height: 500px;
+
+    margin: 0 auto;
+}
