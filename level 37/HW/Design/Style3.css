@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@keyframes gradient {
+    1%      {background-image: linear-gradient(135deg, #272744, #8874a1 1%, #272744);}
+    2%      {background-image: linear-gradient(135deg, #272744, #8874a1 2%, #272744);}
+    3%      {background-image: linear-gradient(135deg, #272744, #8874a1 3%, #272744);}
+    4%      {background-image: linear-gradient(135deg, #272744, #8874a1 4%, #272744);}
+    5%      {background-image: linear-gradient(135deg, #272744, #8874a1 5%, #272744);}
+    6%      {background-image: linear-gradient(135deg, #272744, #8874a1 6%, #272744);}
+    7%      {background-image: linear-gradient(135deg, #272744, #8874a1 7%, #272744);}
+    8%      {background-image: linear-gradient(135deg, #272744, #8874a1 8%, #272744);}
+    9%      {background-image: linear-gradient(135deg, #272744, #8874a1 9%, #272744);}
+    10%     {background-image: linear-gradient(135deg, #272744, #8874a1 10%, #272744);}
+    11%     {background-image: linear-gradient(135deg, #272744, #8874a1 11%, #272744);}
+    12%     {background-image: linear-gradient(135deg, #272744, #8874a1 12%, #272744);}
+    13%     {background-image: linear-gradient(135deg, #272744, #8874a1 13%, #272744);}
+    14%     {background-image: linear-gradient(135deg, #272744, #8874a1 14%, #272744);}
+    15%     {background-image: linear-gradient(135deg, #272744, #8874a1 15%, #272744);}
+    16%     {background-image: linear-gradient(135deg, #272744, #8874a1 16%, #272744);}
+    17%     {background-image: linear-gradient(135deg, #272744, #8874a1 17%, #272744);}
+    18%     {background-image: linear-gradient(135deg, #272744, #8874a1 18%, #272744);}
+    19%     {background-image: linear-gradient(135deg, #272744, #8874a1 19%, #272744);}
+    20%     {background-image: linear-gradient(135deg, #272744, #8874a1 20%, #272744);}
+    21%     {background-image: linear-gradient(135deg, #272744, #8874a1 21%, #272744);}
+    22%     {background-image: linear-gradient(135deg, #272744, #8874a1 22%, #272744);}
+    23%     {background-image: linear-gradient(135deg, #272744, #8874a1 23%, #272744);}
+    24%     {background-image: linear-gradient(135deg, #272744, #8874a1 24%, #272744);}
+    25%     {background-image: linear-gradient(135deg, #272744, #8874a1 25%, #272744);}
+    26%     {background-image: linear-gradient(135deg, #272744, #8874a1 26%, #272744);}
+    27%     {background-image: linear-gradient(135deg, #272744, #8874a1 27%, #272744);}
+    28%     {background-image: linear-gradient(135deg, #272744, #8874a1 28%, #272744);}
+    29%     {background-image: linear-gradient(135deg, #272744, #8874a1 29%, #272744);}
+    30%     {background-image: linear-gradient(135deg, #272744, #8874a1 30%, #272744);}
+    31%     {background-image: linear-gradient(135deg, #272744, #8874a1 31%, #272744);}
+    32%     {background-image: linear-gradient(135deg, #272744, #8874a1 32%, #272744);}
+    33%     {background-image: linear-gradient(135deg, #272744, #8874a1 33%, #272744);}
+    34%     {background-image: linear-gradient(135deg, #272744, #8874a1 34%, #272744);}
+    35%     {background-image: linear-gradient(135deg, #272744, #8874a1 35%, #272744);}
+    36%     {background-image: linear-gradient(135deg, #272744, #8874a1 36%, #272744);}
+    37%     {background-image: linear-gradient(135deg, #272744, #8874a1 37%, #272744);}
+    38%     {background-image: linear-gradient(135deg, #272744, #8874a1 38%, #272744);}
+    39%     {background-image: linear-gradient(135deg, #272744, #8874a1 39%, #272744);}
+    40%     {background-image: linear-gradient(135deg, #272744, #8874a1 40%, #272744);}
+    41%     {background-image: linear-gradient(135deg, #272744, #8874a1 41%, #272744);}
+    42%     {background-image: linear-gradient(135deg, #272744, #8874a1 42%, #272744);}
+    43%     {background-image: linear-gradient(135deg, #272744, #8874a1 43%, #272744);}
+    44%     {background-image: linear-gradient(135deg, #272744, #8874a1 44%, #272744);}
+    45%     {background-image: linear-gradient(135deg, #272744, #8874a1 45%, #272744);}
+    46%     {background-image: linear-gradient(135deg, #272744, #8874a1 46%, #272744);}
+    47%     {background-image: linear-gradient(135deg, #272744, #8874a1 47%, #272744);}
+    48%     {background-image: linear-gradient(135deg, #272744, #8874a1 48%, #272744);}
+    49%     {background-image: linear-gradient(135deg, #272744, #8874a1 49%, #272744);}
+    50%     {background-image: linear-gradient(135deg, #272744, #8874a1 50%, #272744);}
+    51%     {background-image: linear-gradient(135deg, #272744, #8874a1 51%, #272744);}
+    52%     {background-image: linear-gradient(135deg, #272744, #8874a1 52%, #272744);}
+    53%     {background-image: linear-gradient(135deg, #272744, #8874a1 53%, #272744);}
+    54%     {background-image: linear-gradient(135deg, #272744, #8874a1 54%, #272744);}
+    55%     {background-image: linear-gradient(135deg, #272744, #8874a1 55%, #272744);}
+    56%     {background-image: linear-gradient(135deg, #272744, #8874a1 56%, #272744);}
+    57%     {background-image: linear-gradient(135deg, #272744, #8874a1 57%, #272744);}
+    58%     {background-image: linear-gradient(135deg, #272744, #8874a1 58%, #272744);}
+    59%     {background-image: linear-gradient(135deg, #272744, #8874a1 59%, #272744);}
+    60%     {background-image: linear-gradient(135deg, #272744, #8874a1 60%, #272744);}
+    61%     {background-image: linear-gradient(135deg, #272744, #8874a1 61%, #272744);}
+    62%     {background-image: linear-gradient(135deg, #272744, #8874a1 62%, #272744);}
+    63%     {background-image: linear-gradient(135deg, #272744, #8874a1 63%, #272744);}
+    64%     {background-image: linear-gradient(135deg, #272744, #8874a1 64%, #272744);}
+    65%     {background-image: linear-gradient(135deg, #272744, #8874a1 65%, #272744);}
+    66%     {background-image: linear-gradient(135deg, #272744, #8874a1 66%, #272744);}
+    67%     {background-image: linear-gradient(135deg, #272744, #8874a1 67%, #272744);}
+    68%     {background-image: linear-gradient(135deg, #272744, #8874a1 68%, #272744);}
+    69%     {background-image: linear-gradient(135deg, #272744, #8874a1 69%, #272744);}
+    70%     {background-image: linear-gradient(135deg, #272744, #8874a1 70%, #272744);}
+    71%     {background-image: linear-gradient(135deg, #272744, #8874a1 71%, #272744);}
+    72%     {background-image: linear-gradient(135deg, #272744, #8874a1 72%, #272744);}
+    73%     {background-image: linear-gradient(135deg, #272744, #8874a1 73%, #272744);}
+    74%     {background-image: linear-gradient(135deg, #272744, #8874a1 74%, #272744);}
+    75%     {background-image: linear-gradient(135deg, #272744, #8874a1 75%, #272744);}
+    76%     {background-image: linear-gradient(135deg, #272744, #8874a1 76%, #272744);}
+    77%     {background-image: linear-gradient(135deg, #272744, #8874a1 77%, #272744);}
+    78%     {background-image: linear-gradient(135deg, #272744, #8874a1 78%, #272744);}
+    79%     {background-image: linear-gradient(135deg, #272744, #8874a1 79%, #272744);}
+    80%     {background-image: linear-gradient(135deg, #272744, #8874a1 80%, #272744);}
+    81%     {background-image: linear-gradient(135deg, #272744, #8874a1 81%, #272744);}
+    82%     {background-image: linear-gradient(135deg, #272744, #8874a1 82%, #272744);}
+    83%     {background-image: linear-gradient(135deg, #272744, #8874a1 83%, #272744);}
+    84%     {background-image: linear-gradient(135deg, #272744, #8874a1 84%, #272744);}
+    85%     {background-image: linear-gradient(135deg, #272744, #8874a1 85%, #272744);}
+    86%     {background-image: linear-gradient(135deg, #272744, #8874a1 86%, #272744);}
+    87%     {background-image: linear-gradient(135deg, #272744, #8874a1 87%, #272744);}
+    88%     {background-image: linear-gradient(135deg, #272744, #8874a1 88%, #272744);}
+    89%     {background-image: linear-gradient(135deg, #272744, #8874a1 89%, #272744);}
+    90%     {background-image: linear-gradient(135deg, #272744, #8874a1 90%, #272744);}
+    91%     {background-image: linear-gradient(135deg, #272744, #8874a1 91%, #272744);}
+    92%     {background-image: linear-gradient(135deg, #272744, #8874a1 92%, #272744);}
+    93%     {background-image: linear-gradient(135deg, #272744, #8874a1 93%, #272744);}
+    94%     {background-image: linear-gradient(135deg, #272744, #8874a1 94%, #272744);}
+    95%     {background-image: linear-gradient(135deg, #272744, #8874a1 95%, #272744);}
+    96%     {background-image: linear-gradient(135deg, #272744, #8874a1 96%, #272744);}
+    97%     {background-image: linear-gradient(135deg, #272744, #8874a1 97%, #272744);}
+    98%     {background-image: linear-gradient(135deg, #272744, #8874a1 98%, #272744);}
+    99%     {background-image: linear-gradient(135deg, #272744, #8874a1 99%, #272744);}
+    100%    {background-image: linear-gradient(135deg, #272744, #8874a1 100%, #272744)}
+}
+
+img {
+    width: 1000px;
+    border-radius: 3%;
+    box-shadow: 3px 3px 100px;
+}
+
+.d1 {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 10%;
+}
+
+body {
+    background-image: linear-gradient(135deg, #272744, #8874a1 0%, #272744);
+    background-repeat: no-repeat;
+    height: 100vh;
+    animation-name: gradient;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}

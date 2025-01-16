@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    background-image: 
+    linear-gradient(180deg, rgba(182, 8, 8, 0.8), rgb(238, 23, 23) 40%)
+    linear-gradient(40deg, rgb(55, 0, 255), rgb(35, 2, 155) 20%)
+}
