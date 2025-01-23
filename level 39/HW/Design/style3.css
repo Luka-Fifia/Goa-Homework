@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.d1 {
+    height: 100px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: xx-large;
+    font-family: "Montserrat";
+    text-shadow: 2px 2px 20px;
+    font-weight: 100;
+}
+
+.d2{
+    padding: 40px;
+    font-family: "Montserrat";
+}
+
+li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    list-style-type: square;
+    list-style-position: outside;
+    font-size: x-large;
+    text-shadow: 2px 2px 4px;
+}
