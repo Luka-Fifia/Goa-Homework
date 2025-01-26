@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+td, th {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(175, 175, 175);
+}
+
+th:nth-child(1n) {
+    background-color: rgb(1, 152, 122);
+    color: white;
+}
+
+tr:hover {
+    background-color: rgb(200, 200, 200);
+}

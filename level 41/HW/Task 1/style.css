@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-top: 1px solid #2ec7aa;
+}
+
+tr:hover {
+    background-color: #58ebd0;
+}
+
+.box {
+    background-color: #25bf99;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    width: 1090px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 80px;
+    padding-top: 50px;
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(135deg, #f8345f, #5e35b0);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table {
+    border-collapse: collapse;
+    width: 1100px;
+    height: 400px;
+    font-size: x-large;
+    text-align: left;
+    margin: auto;
+    margin-top: 200px;
+    font-family: sans-serif;
+    color: white;
+}
+
+td, th {
+    padding: 10px 50px;
+}
+
+th {
+    background-color: #55608e;
+}
+
+td {
+    background-color: rgb(255, 255, 255, 0.2);
+}
+
+body {
+    background-image: linear-gradient(220deg, #5e3584, #4c959b 65%);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+tr:hover {
+    background-color: rgb(255, 255, 255, 0.5);
+}
+
+td:hover {
+    background-color: rgb(255, 255, 255, 0.5);
+}

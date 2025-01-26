@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    border: 3px double black;
+}
+
+p {
+    padding-top: 10px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+a{
+    padding-left: 300px;
+    padding-right: 300px;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.buy {
+    padding: 1%;
+}
+
+footer {
+    border: 3px double black;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+
+a:link{
+    color: blue;
+}
+
+a:visited{
+    color: blueviolet;
+}
+
+a:active{
+    color: skyblue;
+}
+
+a:hover{
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: x-large;
+}
