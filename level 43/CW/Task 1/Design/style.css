@@ -1,0 +1,44 @@
+form {
+    width: 500px;
+    margin: 0 auto;
+    font-size: x-large;
+    text-align: center;
+    margin-top: 200px;   
+}
+
+fieldset{
+    border: 1px solid black;
+    padding: 70px;
+}
+
+body {
+    background-image: linear-gradient(120deg, rgb(146, 39, 146), rgb(250, 174, 186) 80%, pink);
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.sub{
+    font-size: x-large;
+    padding: 10px 15px;
+    outline: none;
+    border: 2px solid purple;
+    border-radius: 5px;
+    background-image: linear-gradient(120deg, rgb(250, 174, 250), pink);
+}
+
+input[type="text"] {
+    padding: 10px 15px;
+    outline: none;
+    border: 2px solid purple;
+    border-radius: 5px;
+    background-image: linear-gradient(120deg, rgb(250, 174, 250), pink);
+}
+
+input[type="number"] {
+    padding: 10px 15px;
+    outline: none;
+    border: 2px solid purple;
+    border-radius: 5px;
+    color: purple;
+    background-image: linear-gradient(120deg, rgb(244, 174, 250), pink);
+}
