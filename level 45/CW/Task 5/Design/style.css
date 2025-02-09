@@ -1,0 +1,32 @@
+.d1{
+    width: 100px;
+    height: 100px;
+    border: 2px solid green;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    height: 100vh;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.d2 {
+    border: 2px solid red;
+    width: 100px;
+    height: 100px;
+}
+
+.d_c {
+    width: 100px;
+    height: 100px;
+    border: 2px solid green;
+    margin: 0 auto;
+}

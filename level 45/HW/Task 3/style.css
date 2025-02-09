@@ -1,0 +1,17 @@
+.box {
+    height: 100px;
+    width: 100px;
+    color: rgb(17, 166, 216);
+    background-color: skyblue;
+    font-size: xx-large;
+}
+
+.container {
+    height: 500px;
+    margin: 2%;
+    padding: 2%;
+    border: 3px solid gray;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
