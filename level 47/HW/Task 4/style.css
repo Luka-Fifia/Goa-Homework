@@ -1,0 +1,12 @@
+.cont{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+}

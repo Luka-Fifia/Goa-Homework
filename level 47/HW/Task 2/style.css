@@ -1,0 +1,11 @@
+.cont{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap-reverse;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+}

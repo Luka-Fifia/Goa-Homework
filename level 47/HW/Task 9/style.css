@@ -1,0 +1,96 @@
+.box1, .box{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
+h1 {
+    font-size: xx-large;
+    font-family: serif;
+    text-align: center;
+}
+div {
+    margin-top: 50px;
+}
+.flex-start {
+    border: 2px solid purple;
+    display: flex;
+    gap: 10px;
+    align-content: flex-start;
+}
+
+.flex-end{
+    border: 2px solid purple;
+    display: flex;
+    gap: 10px;
+    align-content: flex-end;
+}
+
+.center{
+    border: 2px solid purple;
+    display: flex;
+    gap: 10px;
+    align-content: center;
+}
+
+.stretch {
+    border: 2px solid purple;
+    display: flex;
+    gap: 10px;
+    align-content: stretch;
+}
+
+.space-between {
+    border: 2px solid purple;
+    display: flex;
+    gap: 10px;
+    align-content: space-between;
+}
+
+.space-around {
+    border: 2px solid purple;
+    display: flex;
+    gap: 10px;
+    align-content: space-around;
+}
+
+.flex-start1{
+    border: 2px solid plum;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+.flex-end1{
+    border: 2px solid plum;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.center1 {
+    border: 2px solid plum;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.space-between1 {
+    border: 2px solid plum;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.space-around1 {
+    border: 2px solid plum;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.space-evenly {
+    border: 2px solid plum;
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+}

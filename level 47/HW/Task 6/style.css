@@ -1,0 +1,19 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin-top: 50px;
+}
+
+.cont {
+    display: flex;
+    gap: 100px;
+    height: 100vh;
+}
+
+.x {
+    background-color: aqua;
+    width: 100px;
+    height: 200px;
+    margin-top: 50px;
+}

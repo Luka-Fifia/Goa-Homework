@@ -1,0 +1,22 @@
+.cont{
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+}
+
+.box, .box1, .box2 {
+    background-color: greenyellow;
+    height: 100px;
+}
+
+.box{
+    width: 100px;
+}
+
+.box1{
+    width: 200px;
+}
+
+.box2 {
+    width: 300px;
+}
