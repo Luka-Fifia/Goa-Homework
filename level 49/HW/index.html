@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Conference ticket generator</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-image: url(./assets/images/Background.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: aliceblue;
+
+    }
+
+    .Coding_Conf {
+      display: flex;
+      justify-content: center;
+      margin: 50px;
+      margin-bottom: 70px;
+    }
+
+    .heading {
+      display: flex;
+      justify-content: center;
+      font-size: xx-large;
+      text-align: center;
+      margin: 50px;
+    }
+
+    .second_heading {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      margin: 70px;
+      color: rgb(255, 255, 255, 0.7);
+    }
+
+    .reg {
+      text-align: left;
+      margin-left: 700px;
+      margin-right: 700px;
+    }
+
+    .upload {
+      display: flex;
+      justify-content: center;
+      align-items: end;
+      color: rgb(255, 255, 255, 0.5);
+      width: 500px;
+      height: 250px;
+      text-align: center;
+      background-color: rgb(255, 255, 255, 0.1);
+      padding: 20px;
+      font-size: x-large;
+      border: 3px dashed;
+      border-radius: 15px;
+    }
+
+    .info {
+      margin-top: 10px;
+      gap: 5px;
+      display: flex;
+    }
+
+    h4 {
+      margin-top: 20px;
+      font-size: x-large;
+    }
+
+    form {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Form starts -->
+  <div class="Coding_Conf">
+    <img src="./assets/images/logo-full.svg" alt="">
+  </div>
+
+  <div class="heading">
+    <h1>Your Journey to Coding Conf 2025 Starts Here!</h1>
+  </div>
+
+  <div class="second_heading">
+    <h2>Secure your spot at next year's biggest coding conference.</h2>
+  </div>
+
+  <div class="reg">
+
+    <h4>Upload Avatar</h4> <br>
+    <div class="upload">
+      <p>Drag and drop or click to upload</p>
+    </div>
+    <div class="info">
+      <div>
+        <img src="./assets/images/icon-info.svg" alt="">
+      </div>
+      <div>
+        <p>Upload your photo (JPG or PNG, max size: 500KB).</p>
+      </div>
+    </div>
+
+    <form action="">
+      <label for="fname">Full Name</label> <br>
+      <input type="text" id="fname" name="fname"> <br>
+
+      <label for="email">Email Address</label> <br>
+      <input type="email" id="email" name="email"> <br>
+
+      <label for="name">Github Username</label> <br>
+      <input type="text" id="name" name="name"> <br>
+
+      <input type="submit">
+
+    </form>
+
+  </div>
+  <!-- Form ends -->
+
+</body>
+
+</html>
