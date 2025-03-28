@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* fonts */
+
+.font-red-hat {
+    font-family: "Red Hat Display", sans-serif;
+}
+
+.font-size-30 {
+    font-size: 30px;
+}
+
+.weight-900 {
+    font-weight: 900;
+}
+
+.weight-700 {
+    font-weight: 700;
+}
+
+/* text colors */
+
+.text-gray {
+    color: hsl(224, 23%, 55%);
+}
+
+.text-blue {
+    color: hsl(245, 75%, 52%);
+}
+
+.text-light-gray {
+    color: hsl(225, 100%, 98%);
+}
+
+/* background colors */
+
+.bg-light-gray {
+    background-color: hsl(225, 100%, 94%);
+}
+
+.bg-blue {
+    background-color: hsl(245, 75%, 52%);
+}
+
+.bg-white {
+    background-color: hsl(0, 0%, 100%);
+}
+
+/* background images */
+
+.background-image {
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size: contain;
+}
+
+/* flex */
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.item-center {
+    align-items: center;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+/* align */
+
+.align-self {
+    align-items: start;
+}
+
+/* border / radius */
+
+.radius-15 {
+    border-radius: 15px;
+}
+
+.radius-10 {
+    border-radius: 10px;
+}
+
+.radius-top-15 {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+/* height */
+
+.vh-100 {
+    height: 100vh;
+}
+
+/* padding */
+
+.p-t-40 {
+    padding-top: 40px;
+}
+
+.p-t-b-30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.p-t-b-15 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.p-t-b-40 {
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.p-r {
+    padding-right: 120px;
+}
+
+/* margin */
+
+.m-30 {
+    margin: 30px;
+}
+
+.m-b-30 {
+    margin-bottom: 30px;
+}
+
+/* width */
+
+.max-width {
+    max-width: 300px;
+}
+
+/* line height */
+
+.line-height-primary {
+    line-height: 25px;
+}
+
+/* gap */
+
+.gap-10 {
+    gap: 10px;
+}
+
+/* box shadow */
+
+.box-shadow-primary {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 10px 20px;
+}
+
+/* hover */
+
+.link-hover:hover {
+    cursor: pointer;
+    color: hsl(245, 83%, 68%);
+}
+
+.button-hower-1:hover {
+    cursor: pointer;
+    background-color: hsl(245, 83%, 68%);
+}
+
+.button-hower-2:hover {
+    cursor: pointer;
+    color: hsl(0, 0%, 0%);
+}

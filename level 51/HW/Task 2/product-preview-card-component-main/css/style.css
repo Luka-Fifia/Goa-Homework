@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* colors */
+
+.text-green {
+    color: hsl(158, 36%, 37%);
+}
+
+.text-black {
+    color: hsl(212, 21%, 14%);
+}
+
+.text-gray {
+    color: hsl(228, 12%, 48%);
+}
+
+.text-white {
+    color: hsl(0, 0%, 100%);
+}
+
+/* background colors */
+
+.bg-green {
+    background-color: hsl(158, 36%, 37%);
+}
+
+.bg-cream {
+   background-color: hsl(30, 38%, 92%); 
+}
+
+.bg-white {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.bg-hover:hover{
+    background-color: hsl(158, 42%, 18%);
+    cursor: pointer;
+}
+
+/* fonts */
+
+.font-primary {
+    font-family: "Montserrat", sans-serif;
+}
+
+.font-secondary {
+    font-family: "Fraunces", serif;
+}
+
+.h-size-primary {
+    font-size: 30px;
+}
+
+.f-size{
+    font-size: 12px;
+}
+
+.font-weight-300 {
+    font-weight: 300;
+}
+
+.font-weight-700{
+    font-weight: 700;
+}
+
+.font-weight-900{
+    font-weight: 900;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/* flex */
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.item-center {
+    align-items: center;
+}
+/* gap */
+
+.gap-20 {
+    gap: 20px;
+}
+
+/* height & width */
+
+.height {
+    height: 100vh;
+}
+
+.width-primery {
+    width: 580px;
+}
+
+.wh-primery {
+    height: 500px;
+    width: 400px;
+}
+
+.pw-primary {
+    max-width: 200px;
+}
+
+.hw-primery {
+    max-width: 200px;
+}
+
+/* padding */
+
+.p-15{
+    padding: 15px;
+}
+
+.pt-20{
+    padding-top: 20px;
+}
+
+.pt-30{
+    padding-top: 30px;
+}
+
+.px {
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+/* border radius */
+
+.rounded-10 {
+    border-radius: 10px;
+}
+
+.rounded-10-l {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+/* line height */
+
+.line-height-primary{
+    line-height: 25px;
+}
+
+/* line width */
+
+.spacing-primary {
+    letter-spacing: 5px;
+}
+
+/* text decoration */
+
+.text-decoration {
+    text-decoration: line-through;
+}

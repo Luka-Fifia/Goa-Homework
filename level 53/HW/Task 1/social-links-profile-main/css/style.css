@@ -1,0 +1,127 @@
+@font-face {
+    font-family: Inter;
+    src: url(../assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+/* text colors */
+
+.text-green {
+    color: hsl(75, 94%, 57%);
+}
+
+.text-white {
+    color: hsl(0, 0%, 100%);
+}
+
+/* background colors */
+
+.bg-light-grey {
+    background-color: hsl(0, 0%, 20%);
+}
+
+.bg-grey {
+    background-color: hsl(0, 0%, 12%);
+}
+
+.bg-dark-grey {
+    background-color: hsl(0, 0%, 8%);
+}
+
+/* font size */
+
+.h-size {
+    font-size: 27px;
+}
+
+/* font family */
+
+.font-inter {
+    font-family: Inter, sans-serif;
+}
+
+/* font weight */
+
+.font-weight-400 {
+    font-weight: 400;
+}
+
+.font-weight-600 {
+    font-weight: 600;
+}
+
+.font-weight-700 {
+    font-weight: 700;
+}
+
+/* flex */
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.item-center {
+    align-items: center;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+/* text align */
+
+.text-center {
+    text-align: center;
+}
+
+/* border radius */
+
+.radius-10 {
+    border-radius: 10px;
+}
+
+.radius-100 {
+    border-radius: 100%;
+}
+
+/* height */
+
+.vh-100 {
+    height: 100vh;
+}
+
+/* width */
+
+.button-width {
+    width: 250px;
+}
+
+/* padding */
+
+.p-30 {
+    padding: 30px;
+}
+
+.p-15 {
+    padding: 15px;
+}
+
+.p-bottom {
+    padding-bottom: 30px;
+}
+
+/* margin */
+
+.m-10 {
+    margin: 10px;
+}
+
+/* hover */
+
+.bg-hover:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}

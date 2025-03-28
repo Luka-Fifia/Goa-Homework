@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.a {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+
+.box {
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+}

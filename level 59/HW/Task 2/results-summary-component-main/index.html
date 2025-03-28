@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Results summary component</title>
+
+</head>
+
+<body class="vh-100 flex justify-center item-center Hanken-font">
+  <div class="flex text-center shadow-primary border-radius-20">
+    <div class="border-radius-20 bg-gradient-primary flex flex-col item-center">
+      <div class="p-20 text-light-gray m-35">
+        <h2>Your Result</h2>
+      </div>
+      <div class="p-55 bg-gradient-secondary border-radius-full">
+        <h1 class="font-size-primary weight-700 text-white">76</h1>
+        <p class="text-light-gray">of 100</p>
+      </div>
+
+      <div class="max-width m-35">
+        <h2 class="font-size-second weight-700 text-white">Great</h2>
+        <p class="p-top-20 text-light-gray p-bottom-30">You scored higher than 65% of the people who have taken these
+          tests.</p>
+      </div>
+    </div>
+    <div class="flex flex-col width-300 space-around">
+
+      <h2 class="text-left weight-700 font-size-third p-40">Summary</h2>
+
+      <div class="flex space-around">
+        <div class="flex text-red">
+          <img src="./assets/images/icon-reaction.svg" alt="icon-reaction" class="flex">
+          <p>Reaction</p>
+        </div>
+        <div>
+          <p>80 / <b>100</b></p>
+        </div>
+      </div>
+      <div class="flex space-around">
+        <div class="flex text-yellow">
+          <img src="./assets/images/icon-memory.svg" alt="icon-memory">
+          <p>Memory</p>
+        </div>
+        <p>92 / <b>100</b></p>
+      </div>
+      <div class="flex space-around">
+        <div class="flex text-green">
+          <img src="./assets/images/icon-verbal.svg" alt="icon-verbal">
+          <p>Verbal</p>
+        </div>
+        <div>
+          <p>61 / <b>100</b></p>
+        </div>
+      </div>
+      <div class="flex space-around">
+        <div class="flex text-blue">
+          <img src="./assets/images/icon-visual.svg" alt="icon-visual">
+          <p>Visual</p>
+        </div>
+        <div>
+          <p>72 / <b>100</b></p>
+        </div>
+      </div>
+      <div class="p-button bg-gray border-radius-30 bg-gradient">
+        <button class="text-light-gray font-size-fourth">Continue</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
